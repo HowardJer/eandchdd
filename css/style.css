@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2fr 3fr;
+      grid-template-rows: 2fr 3fr;
+}
+
+.logo_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  background: blue;
+  font-size: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
